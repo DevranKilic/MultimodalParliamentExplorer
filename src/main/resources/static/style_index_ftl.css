@@ -1,0 +1,91 @@
+body {
+    background-color: #EAEAEA;
+}
+.content {
+    padding: 20px;
+}
+.navbar {
+    padding: 0px;
+}
+h1 {
+    font-size: 2.5em;
+    color: black;
+}
+button {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: context-menu;
+    font-size: 1em;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: dimgrey;
+}
+
+ol {
+    padding-left: 0;
+}
+li{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+}
+.TopButtons{
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+}
+
+.RedeText p {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 2px 2px;
+    margin: 0;
+}
+.VisualisierungButton{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Charts {
+    display: flex;
+}
+.Fraktion {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+#WahlperiodeNumber{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Volltextsuche{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.RedeSuche{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.SitzungSuche{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bild_biografie{
+    display: flex;
+    gap: 0px;
+}
+.Picture{
+    flex: 1;
+}
+.Biografie{
+    flex: 1 1 0;
+    min-width: 0;
+
+}

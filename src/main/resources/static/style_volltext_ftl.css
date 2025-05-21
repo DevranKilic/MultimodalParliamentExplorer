@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #EAEAEA;
+}
+
+main {
+    padding: 20px;
+}
+
+.comment {
+    background-color: ghostwhite;
+    border-left: 4px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.comment-icon {
+    margin-right: 5px;
+}
+.comment > div {
+    display: flex;
+    align-items: center;
+}
+.loc { background-color: lightblue; }
+.per { background-color: lightgreen; }
+.misc { background-color: lightyellow; }
+.org { background-color: lightcoral; }
+
+.nn { background-color: greenyellow}
+.\$. { background-color: mediumpurple}
+.adjd { background-color: dodgerblue}
+.prf {background-color: deeppink}
+.pper {background-color: orange}
+.vvinf {background-color: darkred}
+.art {background-color: yellow}
+.adja {background-color: teal}
+.pws {background-color: mediumspringgreen}
+.vvfin {background-color: palevioletred}
+.vainf {background-color: darkslateblue}
+.adv {background-color: #ef233c}
+.apprart {background-color: #bbd0ff}
+.appr {background-color: #ff006e}
+.proav {background-color: #6a994e}
+.pdat {background-color: #00afb9}
+.ne {background-color: #fcf6bd}
+.ptkant {background-color: #2667ff}
+.vvpp {background-color: #dd2d4a}
+.vafin {background-color: #72efdd}
+.kon { background-color: #ffdd00}
+.piat { background-color: #d1495b}
+.pposat {background-color: #a8c256}
+.card { background-color: #cca43b}
+.pwav {background-color: #fe5f55}
+.pds {background-color: #9fffcb}
+.vmfin {background-color: #736ced}
+.vapp {background-color: #b8632e}
+.kous {background-color: #9ec1a3}
+.kokom {background-color: #ffd25a}
+.vvizu {background-color: #006494}
+.ptkzu {background-color: #D12973}
+.prels {background-color: #7C7001}
+
+.legend {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: ghostwhite;
+}
+
+.legend-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border: 1px solid #000;
+}
+
+.toggle-checkbox {
+    margin-bottom: 20px;
+}
+
+.toggle-checkbox label {
+    margin-left: 10px;
+}

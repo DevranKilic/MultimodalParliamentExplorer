@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.test1 {
+    mix-blend-mode: multiply;
+    height: 20em;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    overflow: hidden;
+    border-right: 1px solid;
+    animation: typing 3s steps(30) infinite alternate, blink 1s step-end infinite;
+    white-space: nowrap;
+    max-width: fit-content;
+    font-family: "Poppins", sans-serif;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    30% {
+        border-color: transparent;
+    }
+}
+
+
+
+

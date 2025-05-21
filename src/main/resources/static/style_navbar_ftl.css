@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #2b2b2b;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3em;
+    padding-right: 1em;
+    gap: 40px;
+}
+
+.logo-wrapper {
+    margin-right: auto;
+}
+
+.logo {
+    height: 5em;
+    mix-blend-mode: screen;
+}
+
+div {
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+nav div i {
+    margin-right: 5px;
+}
+
+#chartSearchContainer,
+#volltextSearchContainer {
+    display: none;
+    width: 60%;
+    max-width: 600px;
+    margin: 50px auto;
+    position: relative;
+}
+
+#chartSearchInput,
+#volltextSearchInput {
+    width: 100%;
+    padding: 15px 40px 15px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#chartSearchContainer i,
+#volltextSearchContainer i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #888;
+}

@@ -1,0 +1,18 @@
+h2 {
+    margin-top: 2em;
+}
+
+body {
+    background-color: #EAEAEA;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.bar {
+    fill: #345995;
+}
+.bar:hover {
+    fill: #FB4D3D;
+}
+
+

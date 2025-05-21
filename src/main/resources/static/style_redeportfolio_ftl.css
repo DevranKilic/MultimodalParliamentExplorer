@@ -1,0 +1,206 @@
+body {
+    background-color: #EAEAEA;
+}
+.content {
+    padding: 20px;
+}
+.navbar {
+    padding: 0px;
+}
+h1 {
+    font-size: 2.5em;
+    color: black;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: context-menu;
+    font-size: 1em;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: dimgrey;
+}
+
+.TopButtons{
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+}
+
+.RedeText p {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 2px 2px;
+    margin: 0;
+}
+
+.VisualisierungButton{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Charts {
+    display: flex;
+}
+
+.PictureAndBio {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.Picture {
+    display: block;
+}
+
+.Picture img {
+    display: block;
+    height: auto;
+    width: 300px;
+}
+
+.Biografie {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Biografie p {
+    margin: 0;
+}
+
+.PictureDescription {
+    margin-top: 5px;
+    padding-top: 3px;
+    font-size: 14px;
+    color: #000;
+    width: fit-content;
+}
+
+
+.Wahlperioden {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 10px;
+    max-width: 100%;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.EineWahlperiode {
+    flex: 0 0 auto;
+    min-width: 300px;
+    max-width: 400px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    scroll-snap-align: start;
+}
+
+.Inhaltsverzeichnis select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.Reden {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.Rede {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.Rede:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.Redeinfo p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.VisualisierungButton {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.VisualisierungButton button {
+    background-color: #007acc;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.VisualisierungButton button:hover {
+    background-color: #005f99;
+}
+
+.Charts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.NamedEntityBubbleChart,
+.POSPieChart {
+    flex: 1 1 300px;
+    min-height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fefefe;
+}
+
+.RedeVideo video {
+    width: 100%;
+    max-height: 400px;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.RedeText {
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+.RedeText p {
+    margin: 0.5rem 0;
+}
+
+.RedeText a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.RedeText a:hover {
+    text-decoration: underline;
+}
