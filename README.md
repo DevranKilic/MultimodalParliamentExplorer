@@ -1,5 +1,7 @@
 # Multimodal Parliament Explorer 🏛️
 
+[![ ](https://img.youtube.com/vi/Ds2fyq_sJRo/hqdefault.jpg)](https://www.youtube.com/watch?v=Ds2fyq_sJRo)
+
 
 # Analyse und Darstellung von Bundestagsreden
 
